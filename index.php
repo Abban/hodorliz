@@ -33,7 +33,6 @@
     </head>
     <body>
 		<video autoplay controls loop poster="hodorliz.png" id="bgvid">
-			<source src="hodorliz.webm" type="video/webm">
 			<source src="hodorliz.mp4" type="video/mp4">
 			Your browser does not support the video element.
 		</video>
