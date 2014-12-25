@@ -20,20 +20,21 @@
 				position: fixed; right: 0; bottom: 0;
 				min-width: 100%; min-height: 100%;
 				width: auto; height: auto; z-index: -100;
-				background: url(hodorliz.png) no-repeat;
+				/*background: url(hodorliz.png) no-repeat;*/
 				background-size: cover;
 			}
 
 			@media screen and (max-device-width: 800px) {
-				html { background: url(hodorliz.png) #000 no-repeat center center fixed; }
+				/*html { background: url(hodorliz.png) #000 no-repeat center center fixed; }*/
 				#bgvid { display: none; }
 			}
 
         </style>
     </head>
     <body>
-		<video autoplay loop poster="/hodorliz.png" id="bgvid" src="hodorliz.mp4" width="1024" height="750">
+		<video autoplay loop poster="/hodorliz.png" id="bgvid" width="1024" height="750">
 			<source src="hodorliz.mp4" type="video/mp4">
+			<source src="hodorliz.webm" type='video/webm'>
 			Your browser does not support the video element.
 		</video>
     </body>
