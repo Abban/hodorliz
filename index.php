@@ -32,7 +32,8 @@
         </style>
     </head>
     <body>
-		<video autoplay loop poster="/hodorliz.png" id="bgvid" width="1024" height="750">
+		<video autoplay loop poster="hodorliz.png" id="bgvid" width="1024" height="750">
+			<source src="hodorliz.m4v" type="video/m4v">
 			<source src="hodorliz.mp4" type="video/mp4">
 			<source src="hodorliz.webm" type='video/webm'>
 			Your browser does not support the video element.
