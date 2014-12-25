@@ -33,7 +33,6 @@
     </head>
     <body>
 		<video autoplay loop poster="polina.jpg" id="bgvid">
-			<source src="hodorliz.webm" type="video/webm">
 			<source src="hodorliz.mp4" type="video/mp4">
 		</video>
     </body>
