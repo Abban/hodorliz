@@ -32,8 +32,8 @@
         </style>
     </head>
     <body>
-		<video autoplay loop id="bgvid">
-			<source src="hodorliz.m4v" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+		<video autoplay loop id="bgvid" width="400" height="400">
+			<source src="hodorliz.m4v" type="video/mp4">
 			<source src="hodorliz.webm" type="video/webm">
 		</video>
     </body>
