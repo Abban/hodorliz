@@ -32,9 +32,9 @@
         </style>
     </head>
     <body>
-		<video autoplay loop id="bgvid" width="400" height="400">
-			<source src="hodorliz.m4v" type="video/mp4">
-			<source src="hodorliz.webm" type="video/webm">
+		<video src="hodorliz.m4v" autoplay loop id="bgvid" width="400" height="400">
+			<source src="hodorliz.m4v" type="video/mp4" />
+			<source src="hodorliz.webm" type="video/webm" />
 		</video>
     </body>
 </html>
