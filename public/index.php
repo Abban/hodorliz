@@ -32,7 +32,7 @@
         </style>
     </head>
     <body>
-		<video autoplay loop poster="hodorliz.png" id="bgvid">
+		<video autoplay loop id="bgvid">
 			<source src="hodorliz.m4v" type="video/mp4">
 			<source src="hodorliz.webm" type="video/webm">
 		</video>
